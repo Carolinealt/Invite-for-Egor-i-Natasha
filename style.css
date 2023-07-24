@@ -83,6 +83,9 @@ button {
 
 .header-item .title {
   font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  max-width: 750px;
+  line-height: 1.7;
 }
 
 .desk {
@@ -706,5 +709,12 @@ button {
     max-height: 100%;
     width: auto;
     height: auto;
+  }
+
+  .header-item .title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    max-width: 750px;
+    line-height: 1.7;
   }
 }
