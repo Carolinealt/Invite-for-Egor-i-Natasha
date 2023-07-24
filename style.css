@@ -133,9 +133,11 @@ button {
 
 .env-form {
   /* padding: 35px 40px; */
-  background-color: white;
+  /* background-color: white; */
   width: 90%;
-  /* height: 97%; */
+  max-width: 465px;
+
+  height: 97%;
   border-radius: 50px;
   position: relative;
 
@@ -150,6 +152,14 @@ button {
   /* position: absolute;
   top: 25px;
   right: 25px; */
+}
+
+.inv-zalevadskie {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
 }
 
 .icon-close:hover {
@@ -177,7 +187,7 @@ button {
 }
 
 .inv-zalevadskie {
-  width: 100%;
+  /* width: 100%; */
 }
 
 
@@ -353,7 +363,6 @@ button {
 .program-list-deskop {
   display: none;
 }
-
 
 
 
@@ -683,7 +692,7 @@ button {
 
   .env-form {
 
-    max-width: 550px;
+    max-width: 464px;
 
   }
 
